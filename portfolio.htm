@@ -13,22 +13,24 @@
         <link rel="stylesheet" href="./CSS/styles1.css">
     </head>
     <body>
-        <header class="header-container">
-            <nav class="header-left-navigation">
-                <a href="" class="logo"><span>Web</span>Studio</a>
-                <ul class="main-menu">
-                    <li><a href="./index.htm" class="main-menu-title"><b>Студия</b></a></li>
-                    <li><a href="./portfolio.htm" class="main-menu-title current"><b>Портфолио</b></a></li>
-                    <li><a href="#" class="main-menu-title"><b>Контакты</b></a></li>
-                </ul>
-            </nav>
-            <address class="header-address">
+        <section class="header">
+            <header class="header-container">
+                <nav class="header-left-navigation">
+                    <a href="" class="logo"><span>Web</span>Studio</a>
+                    <ul class="main-menu">
+                        <li><a href="./index.htm" class="main-menu-title current"><b>Студия</b></a></li>
+                        <li><a href="./portfolio.htm" class="main-menu-title"><b>Портфолио</b></a></li>
+                        <li><a href="#" class="main-menu-title"><b>Контакты</b></a></li>
+                    </ul>
+                </nav>
+                <address class="header-address">
                 <a class="header-right-navigation" href="mailto:info@devstudio.com"> info@devstudio.com</a>
                 <a class="header-right-navigation" href="tel:+380961111111"> +38 096 111 11 11</a>
-            </address>
-        </header>
-        <main class="main-portfolio">
-            <section>
+                </address>
+            </header>
+        </section>
+        <main>
+            <section class="portfolio">
                 <nav class="buttons">
                     <ul>
                         <li><button type="button">Все</button></li>
@@ -38,47 +40,67 @@
                         <li><button type="button">Маркетинг</button></li>
                     </ul>
                 </nav>
-                <ul class="pictures">
-                    <li><a href=""><img src="./images_page2/technokriak.png" alt="лептоп" width="370" height="294"/>
-                            <h3><b>Технокряк</b></h3>
-                            <p>Веб-сайт</p></a>
-                    </li>
-                    <li><a href=""><img src="./images_page2/poster_new_orlean_vs_golden_star.png" alt="постер - Новый Орлеан" width="370" height="294" />
-                            <h3> <b>Постер </b><b lang="en">New Orlean vs Golden Star</b></h3>
-                            <p>Дизайн</p></a>
-                    </li>
-                    <li><a href=""><img src="./images_page2/restaurant_seafood.png" alt="постер-ресторан морепродуктов" width="370" height="294" />
-                            <h3><b>Ресторан </b><b lang="en">Seafood</b></h3>
-                            <p>Приложение</p></a>
-                    </li>
-                    <li><a href=""><img src="./images_page2/headphones.png" alt="наушники" width="370" height="294" />
-                            <h3><b>Проект</b><b lang="en">Prime</b></h3>
-                            <p>Маркетинг</p></a>
-                    </li>
-                    <li><a href=""><img src="./images_page2/project_boxes.png" alt="ящики" width="370" height="294" />
-                            <h3><b>Проект</b><b lang="en">Boxes</b></h3>
-                            <p>Приложение</p></a>
-                    </li>
-                    <li><a href=""><img src="./images_page2/inspiration_has_noborders.png" alt="монитор компьютера" width="370" height="294" />
-                            <h3><b lang="en">Inspiration has no Borders</b></h3>
-                            <p>Веб-сайт</p></a>
-                    </li>
-                    <li><a href=""><img src="./images_page2/book.png" alt="книга" width="370" height="294" />
-                            <h3><b>Издание </b><b lang="en">Limited Edition</b></h3>
-                            <p>Дизайн</p></a>
-                    </li>
-                    <li><a href=""><img src="./images_page2/label.png" alt="бирка" width="370" height="294" />
-                            <h3><b>Проект </b><b lang="en">LAB</b></h3>
-                            <p>Маркетинг</p></a>
-                    </li>
-                    <li><a href=""><img src="./images_page2/lap_top.png" alt="сайт на экране компьютера" width="370" height="294" />
-                            <h3><b lang="en">Growing Business</b></h3>
-                            <p>Приложение</p></a>
-                    </li>
-                </ul>
+                <div class="pictures">
+                    <ul>
+                        <li><a href=""><img src="./images_page2/technokriak.png" alt="лептоп" width="370" height="294"/>
+                            <div class="pictures-tittle">
+                                <h3><b>Технокряк</b></h3>
+                                <p>Веб-сайт</p></a>
+                            </div>
+                        </li>
+                        <li><a href=""><img src="./images_page2/poster_new_orlean_vs_golden_star.png" alt="постер - Новый Орлеан" width="370" height="294" />
+                            <div class="pictures-tittle">
+                                <h3> <b>Постер </b><b lang="en">New Orlean vs Golden Star</b></h3>
+                                <p>Дизайн</p></a>
+                            </div>
+                        </li>
+                        <li><a href=""><img src="./images_page2/restaurant_seafood.png" alt="постер-ресторан морепродуктов" width="370" height="294" />
+                            <div class="pictures-tittle">
+                                <h3><b>Ресторан </b><b lang="en">Seafood</b></h3>
+                                <p>Приложение</p></a>
+                            </div>
+                        </li>
+                        <li><a href=""><img src="./images_page2/headphones.png" alt="наушники" width="370" height="294" />
+                            <div class="pictures-tittle">
+                                <h3><b>Проект</b><b lang="en">Prime</b></h3>
+                                <p>Маркетинг</p></a>
+                            </div>
+                        </li>
+                        <li><a href=""><img src="./images_page2/project_boxes.png" alt="ящики" width="370" height="294" />
+                            <div class="pictures-tittle">
+                                <h3><b>Проект</b><b lang="en">Boxes</b></h3>
+                                <p>Приложение</p></a>
+                            </div>
+                        </li>
+                        <li><a href=""><img src="./images_page2/inspiration_has_noborders.png" alt="монитор компьютера" width="370" height="294" />
+                            <div class="pictures-tittle">
+                                <h3><b lang="en">Inspiration has no Borders</b></h3>
+                                <p>Веб-сайт</p></a>
+                            </div>
+                        </li>
+                        <li><a href=""><img src="./images_page2/book.png" alt="книга" width="370" height="294" />
+                            <div class="pictures-tittle">
+                                <h3><b>Издание </b><b lang="en">Limited Edition</b></h3>
+                                <p>Дизайн</p></a>
+                            </div>
+                        </li>
+                        <li><a href=""><img src="./images_page2/label.png" alt="бирка" width="370" height="294" />
+                            <div class="pictures-tittle">
+                                <h3><b>Проект </b><b lang="en">LAB</b></h3>
+                                <p>Маркетинг</p></a>
+                            </div>
+                        </li>
+                        <li><a href=""><img src="./images_page2/lap_top.png" alt="сайт на экране компьютера" width="370" height="294" />
+                            <div class="pictures-tittle">
+                                <h3><b lang="en">Growing Business</b></h3>
+                                <p>Приложение</p></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </section>
         </main>
-        <footer>
+        <footer class="footer">
             <div class="footer-container">
                 <a href="" class="logo"> <span>Web</span>Studio</a>
                 <address>
