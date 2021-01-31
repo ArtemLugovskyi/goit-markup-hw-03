@@ -29,15 +29,18 @@ img{
   display:block;
 }
 .header{
-  box-shadow: 0px 1px 0px 0px #eeeeee;
+  border-bottom: solid 1px #eeeeee;
+  padding: 32px 0;
 }
-.header-container {
+.container{
   width: 1200px;
-  display: flex;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+}
+.header-container {
+  display: flex;
 }
 a.logo {
   width: 145px;
@@ -57,8 +60,6 @@ a.logo {
 .header-address {
   display: flex;
   align-items: center;
-  margin-top: 32px;
-  margin-bottom: 32px;
 }
 .header-address {
   align-items: center;
@@ -88,6 +89,7 @@ a.logo {
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 0.02em;
+  padding: 6px 0;
 }
 .moto-section{
   background-color: #2f303a;
@@ -129,10 +131,7 @@ a.logo {
   border-radius: 5px;
 }
 .preferences{
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 103px auto 93px;
+  padding: 80px 0 94px;
 }
 .preferences-container ul {
   display: flex;
@@ -162,16 +161,8 @@ a.logo {
   margin-right: 30px;
 }
 .what-we-do{
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  padding-bottom: 123px;
 }
-.what-we-do-container {
-
-}
-
 .what-we-do-container h2 {
   text-align: center;
   font-size: 36px;
@@ -185,21 +176,13 @@ a.logo {
   flex-direction: row;
   justify-content: space-between;
   list-style: none;
-  margin: 0;
-  padding: 20px 0;
   width: 100%;
 }
 .our-team{
   background-color: #f5f4fa;
   width: 100%;
   align-items: center;
-  margin-top: 74px;
-}
-.our-team-container {
- width: 1200px;
- padding: 94px 15px 90px 15px;
- margin-left: auto;
- margin-right: auto;
+  padding: 94px 0;
 }
 .our-team-container ul {
   list-style: none;
@@ -214,9 +197,9 @@ a.logo {
 }
 .our-team-container li {
   text-align: center;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #eeeeee;
+  outline-color: #eeeeee;
+  outline-style: solid;
+  outline-width: 1px;
   background-color: #ffffff;
   box-shadow: 0px 2px 4px -1px #757575;
   border-radius: 3px;
@@ -240,17 +223,9 @@ a.logo {
   margin-bottom: 0;
 }
 .footer{
-  padding-top: 50px;
+  padding: 50px 0;
   background-color: #2f303a;
   width: 100%;
-}
-.footer-container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-
 }
 .footer-container ul a {
   display: inline-block;
@@ -272,7 +247,7 @@ a.logo {
   font-weight: 400;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  padding: 20px 0px 50px;
+  padding-top: 20px;
 }
 .footer-container address {
   font-style: normal;
@@ -281,7 +256,6 @@ a.logo {
 /* portfolio */
 
 .portfolio {
-  width: 100%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -289,14 +263,8 @@ a.logo {
   padding-top: 112px;
 }
 .buttons{
-  width: 1200px;
   display: flex;
   justify-items: center;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-
 }
 .buttons ul {
   margin: auto;
@@ -331,14 +299,9 @@ button:focus {
   cursor: pointer;
 }
 .pictures ul {
-  width: 1200px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
   padding-bottom: 76px;
 }
 .pictures li:nth-child(3n){
